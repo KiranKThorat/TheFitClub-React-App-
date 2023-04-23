@@ -5,6 +5,7 @@ import whiteTick from "../../assets/whiteTick.png"
 const Plans = () => {
   return (
     <div className='plans-container'>
+      <div className='blur plans-blur'></div>
       <div className='plans-header' style={{ gap: '2rem' }}>
         <span className='stroke-text'>our</span>
         <span> Monthly </span>
@@ -21,13 +22,13 @@ const Plans = () => {
             <div className='features'>
               {plan.features.map((features, i) => (
                 <div className='feature'>
-                  <img src={ whiteTick } alt="whiteTick"></img>
+                  <img src={whiteTick} alt="whiteTick"></img>
                   <span key={i}>{features}</span>
                 </div>
               ))}
             </div>
             <div>
-            <button className='btn' id='btn-join'>Join Now</button>
+              <button className='btn' id='btn-join'>Join Now</button>
             </div>
           </div>
 

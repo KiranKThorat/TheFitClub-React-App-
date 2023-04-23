@@ -1,0 +1,48 @@
+.join{
+ display: flex;
+ padding: 0 2rem;
+ gap: 10rem;
+}
+.join-l{
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.join-l>hr{
+    position: absolute;
+    width: 50rem;
+    border: 2px solid;
+    color: orange;
+    top: -4rem;
+    border-radius: 20%;
+}
+.join-r>div{
+    display: flex;
+    align-items: flex-end;
+    border-radius: 2rem;
+}
+form{
+    border-radius: 1rem;
+}
+.email-container{
+    display: flex;
+    gap: 3rem;
+    background-color: gray;
+    padding: 1rem;
+}
+.email-container>input{
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+}
+.email-container>::placeholder{
+    color: white;
+}
+.btn-join{
+    background-color: var(--orange);
+    color: white;
+    border-radius: 2rem;
+}

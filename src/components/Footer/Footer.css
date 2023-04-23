@@ -1,0 +1,39 @@
+.footer-container {
+    position: relative;
+}
+
+.footer-container>hr {
+    border: 1px solid var(--lightgray);
+    width: 80rem;
+}
+
+.footer {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-logos {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.social-logos>img {
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.copyright>span {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.blur-footer {
+    height: 25rem;
+    width: 30rem;
+}
