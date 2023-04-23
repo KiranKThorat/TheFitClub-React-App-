@@ -27,7 +27,7 @@ const Plans = () => {
               ))}
             </div>
             <div>
-            <button className='btn'>Join Now</button>
+            <button className='btn' id='btn-join'>Join Now</button>
             </div>
           </div>
 

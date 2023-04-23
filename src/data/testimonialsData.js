@@ -6,19 +6,19 @@ export const testimonialsData = [
   {
     image: image1,
     review:
-      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body!",
+      "I made the right choice by choosing the Fitclub and by choosing the right plan and program I already achieved my ideal body. I made the right choice by choosing the Fitclub !",
     name: 'MATHEW HENDRICKSON',
     status : 'ENTREPRENEUR'
   },
   {
     image: image2,
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
+    review: 'Lorem ipsu ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing ipsum dolor sit amet consectetur adipisicing elit elit. Commodi ipsam, ab itaque nam perferendis impedit sint ',
     name: 'JOHN KEVIN',
     status: 'COACH'
   },
   {
     image : image3,
-    review:' Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
+    review:' Lorem ipsum ipsum dolor sit amet consectetur adipisicing elit ipsum dolor sit amet consectetur adipisicing elitdolor sit, amet consectetur adipisicing elit. Minima aspernatur quod voluptatem',
     name: 'FRANKLIN',
     status: "CUSTOMER"
   }

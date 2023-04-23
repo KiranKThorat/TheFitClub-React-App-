@@ -15,7 +15,7 @@ export const plansData = [
     features: [
       "2 hours of excercises",
       "Free consultaion to coaches",
-      "Access to The Community",
+      "Health Fitness Programs",
     ],
   },
   {
@@ -34,7 +34,7 @@ export const plansData = [
     features: [
       "5 hour of excercises",
       "Free consultaion of Coaches",
-      "Accessto minibar",
+      "Fat burning Programs",
     ],
   },
   {
@@ -53,7 +53,7 @@ export const plansData = [
     features: [
       "8 hours of excercises",
       "Consultation of Private Coach",
-      "Free Fitness Merchandises",
+      "All Programs Included",
     ],
   },
 ];
