@@ -66,3 +66,42 @@
     width: 2rem;
     height: 2rem;
 }
+
+@media screen and (max-width: 768px){
+    .Reasons{
+        flex-direction: column;
+    }
+    .left-r{
+        grid-auto-rows: auto;
+        overflow: hidden;
+    }
+    .left-r>:nth-child(1){
+        width:7rem;
+        height: 15rem;
+    }
+    .left-r>:nth-child(2){
+        width:15rem;
+        height: 10rem;
+
+    }
+    .left-r>:nth-child(3){
+        width:7rem; 
+    }
+    .left-r>:nth-child(4){
+        width:7rem;
+        height: 6rem;
+        
+    }
+    .right-r>:nth-child(2){
+        font-size: x-large;
+
+    }
+    .details-r>div{
+        font-size:x-large;
+    }
+    .details-r>div>img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+}

@@ -6,18 +6,20 @@ import hero_image_back from '../../assets/hero_image_back.png';
 import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { motion } from 'framer-motion';
+import NumberCounter from "number-counter"
 
 const Hero = () => {
   const transition = {type:"spring",duration :3}
+  const mobile = window.innerWidth<=768 ? true:false;
   return (
-    <div className="hero">
+    <div className="hero" id='Hero'>
     <div className='blur hero-blur'></div>
       <div className="left-h">
         <Header />
         {/* the best add section */}
         <div className="the-best-ad">
           <motion.div 
-          initial={{left:'238px'}}
+          initial={{left:mobile?"168px":"238px"}}
           whileInView={{left:'9px'}}
           transition={transition}
           ></motion.div>
@@ -43,15 +45,18 @@ const Hero = () => {
        {/* Figures */}
        <div className='figures'>
         <div>
-      <span>+14</span>
+      <span><NumberCounter start={100} end={140} delay='4' preFix="+">
+      </NumberCounter></span>
       <span>Expert Coachs</span>
         </div>
         <div>
-      <span>+274</span>
+      <span><NumberCounter start={200} end={252} delay='4' preFix="+">
+      </NumberCounter></span>
       <span>Members Joined</span>
         </div>
         <div>
-      <span>+10</span>
+      <span><NumberCounter start={1} end={10} delay='2' preFix="+">
+      </NumberCounter></span>
       <span>Fitness Programs</span>
         </div>
 
@@ -72,7 +77,8 @@ const Hero = () => {
          className='heart-rate'>
         <img src={Heart} alt="heart"></img>
         <span>Heart Rate</span>
-        <span>116 BPM</span>
+        <span><NumberCounter start={200} end={240} delay='4' postFix="BPM">
+      </NumberCounter></span>
         </motion.div>
       {/* fitness hero Images */}
       <img src={hero_image} alt="hero_img" className='hero_img'></img>
@@ -90,7 +96,8 @@ const Hero = () => {
        className='calories'>
         <img src={Calories} alt="calories"></img>
         <div>
-          <span>Calories Burned</span><span>220 Kcal</span>
+          <span>Calories Burned</span><span><NumberCounter start={180} end={242} delay='4' postFix="Kcal">
+      </NumberCounter></span>
         </div>
       </motion.div>
   

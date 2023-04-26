@@ -46,3 +46,17 @@ form{
     color: white;
     border-radius: 2rem;
 }
+
+
+@media screen and (max-width: 768px){
+    .join{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .join-r{
+        height: 2rem;
+    }
+    .email-container{
+        height: 2rem;
+    }
+}
